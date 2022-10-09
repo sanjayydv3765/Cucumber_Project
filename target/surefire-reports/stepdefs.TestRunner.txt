@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: stepdefs.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 78.722 sec <<< FAILURE!
+To Add two numbers(This feature would be creating a calculator for Add and Subtraction)  Time elapsed: 1.206 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<18> but was:<17>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepdefs.CalculatorStepDef.i_should_get_the_result_as(CalculatorStepDef.java:29)
+	at ?.I should get the result as 18(file:///C:/Users/DELL/eclipse-workspace/Cucumber_Project/src/test/java/features/Calculator.feature:11)
+
+To Add two numbers(This feature would be creating a calculator for Add and Subtraction)  Time elapsed: 1.116 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<100> but was:<117>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepdefs.CalculatorStepDef.i_should_get_the_result_as(CalculatorStepDef.java:29)
+	at ?.I should get the result as 100(file:///C:/Users/DELL/eclipse-workspace/Cucumber_Project/src/test/java/features/Calculator.feature:11)
+
+To Add multiple numbers(This feature would be creating a calculator for Add and Subtraction)  Time elapsed: 1.174 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<38> but was:<30>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepdefs.CalculatorStepDef.i_should_get_the_result_as(CalculatorStepDef.java:29)
+	at ?.I should get the result as 38(file:///C:/Users/DELL/eclipse-workspace/Cucumber_Project/src/test/java/features/Calculator.feature:27)
+

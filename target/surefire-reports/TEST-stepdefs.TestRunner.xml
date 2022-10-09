@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="3" name="stepdefs.TestRunner" time="78.066" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\DELL\eclipse-workspace\Cucumber_Project"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\DELL\eclipse-workspace\Cucumber_Project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\DELL\Desktop\Selenium\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\DELL\Desktop\Selenium\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-11.0.16;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Users\DELL\Desktop\Selenium\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\DELL\Desktop\Selenium\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="DELL"/>
+    <property name="java.class.path" value="C:\Users\DELL\Desktop\Selenium\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Users\DELL\Desktop\Selenium\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="This feature would be creating a calculator for Add and Subtraction" name="To Add two numbers" time="2.229"/>
+  <testcase classname="This feature would be creating a calculator for Add and Subtraction" name="To Add two numbers" time="1.093"/>
+  <testcase classname="This feature would be creating a calculator for Add and Subtraction" name="To Add two numbers" time="1.206">
+    <failure message="expected:&lt;18&gt; but was:&lt;17&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;18&gt; but was:&lt;17&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepdefs.CalculatorStepDef.i_should_get_the_result_as(CalculatorStepDef.java:29)
+	at ✽.I should get the result as 18(file:///C:/Users/DELL/eclipse-workspace/Cucumber_Project/src/test/java/features/Calculator.feature:11)
+</failure>
+    <system-out>
+Scenario Outline: To Add two numbers # src/test/java/features/Calculator.feature:16
+open the calculator
+  Given I have a calculator          # stepdefs.CalculatorStepDef.i_have_a_calculator()
+  When add 9 and 8                   # stepdefs.CalculatorStepDef.add_and(int,int)
+  Then I should get the result as 18 # stepdefs.CalculatorStepDef.i_should_get_the_result_as(int)
+      java.lang.AssertionError: expected:&lt;18&gt; but was:&lt;17&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepdefs.CalculatorStepDef.i_should_get_the_result_as(CalculatorStepDef.java:29)
+	at ?.I should get the result as 18(file:///C:/Users/DELL/eclipse-workspace/Cucumber_Project/src/test/java/features/Calculator.feature:11)
+
+</system-out>
+    <system-err>Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 18895
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 09, 2022 12:31:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="This feature would be creating a calculator for Add and Subtraction" name="To Add two numbers" time="1.116">
+    <failure message="expected:&lt;100&gt; but was:&lt;117&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;100&gt; but was:&lt;117&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepdefs.CalculatorStepDef.i_should_get_the_result_as(CalculatorStepDef.java:29)
+	at ✽.I should get the result as 100(file:///C:/Users/DELL/eclipse-workspace/Cucumber_Project/src/test/java/features/Calculator.feature:11)
+</failure>
+    <system-out>
+Scenario Outline: To Add two numbers  # src/test/java/features/Calculator.feature:17
+open the calculator
+  Given I have a calculator           # stepdefs.CalculatorStepDef.i_have_a_calculator()
+  When add 56 and 61                  # stepdefs.CalculatorStepDef.add_and(int,int)
+  Then I should get the result as 100 # stepdefs.CalculatorStepDef.i_should_get_the_result_as(int)
+      java.lang.AssertionError: expected:&lt;100&gt; but was:&lt;117&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepdefs.CalculatorStepDef.i_should_get_the_result_as(CalculatorStepDef.java:29)
+	at ?.I should get the result as 100(file:///C:/Users/DELL/eclipse-workspace/Cucumber_Project/src/test/java/features/Calculator.feature:11)
+
+</system-out>
+    <system-err>Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 35815
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 09, 2022 12:31:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="This feature would be creating a calculator for Add and Subtraction" name="To Add multiple numbers" time="1.174">
+    <failure message="expected:&lt;38&gt; but was:&lt;30&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;38&gt; but was:&lt;30&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepdefs.CalculatorStepDef.i_should_get_the_result_as(CalculatorStepDef.java:29)
+	at ✽.I should get the result as 38(file:///C:/Users/DELL/eclipse-workspace/Cucumber_Project/src/test/java/features/Calculator.feature:27)
+</failure>
+    <system-out>
+Scenario: To Add multiple numbers    # src/test/java/features/Calculator.feature:19
+open the calculator
+  Given I have a calculator          # stepdefs.CalculatorStepDef.i_have_a_calculator()
+  When I add below Numbers           # stepdefs.CalculatorStepDef.i_add_below_Numbers(java.util.List&lt;java.lang.Integer&gt;)
+  Then I should get the result as 38 # stepdefs.CalculatorStepDef.i_should_get_the_result_as(int)
+      java.lang.AssertionError: expected:&lt;38&gt; but was:&lt;30&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepdefs.CalculatorStepDef.i_should_get_the_result_as(CalculatorStepDef.java:29)
+	at ?.I should get the result as 38(file:///C:/Users/DELL/eclipse-workspace/Cucumber_Project/src/test/java/features/Calculator.feature:27)
+
+</system-out>
+    <system-err>Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 17546
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 09, 2022 12:31:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Login Feature Scenario" name="This scenario is to define the login happy path" time="14.48"/>
+  <testcase classname="Login Feature Scenario" name="This sceanrio is to define the failure path" time="14.101"/>
+  <testcase classname="Login Feature Scenario" name="This sceanrio is to define the failure path" time="14.536"/>
+  <testcase classname="Login Feature Scenario" name="This sceanrio is to define the failure path" time="14.22"/>
+  <testcase classname="Login Feature Scenario" name="This sceanrio is to define the failure path" time="13.911"/>
+</testsuite>
